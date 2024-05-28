@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ImageView: View {
     var urlString: String
-    var width = 140.0
+    var width = screenSize.width * 0.35
     var height = 80.0
     var cornerRadius = 8.0
     

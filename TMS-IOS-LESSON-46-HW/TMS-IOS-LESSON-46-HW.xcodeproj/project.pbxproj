@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046D00192C067E8B00FF16EA /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D00182C067E8B00FF16EA /* constants.swift */; };
 		04F54E622C065AB300406B3F /* TMS_IOS_LESSON_46_HWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F54E612C065AB300406B3F /* TMS_IOS_LESSON_46_HWApp.swift */; };
 		04F54E662C065AB500406B3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F54E652C065AB500406B3F /* Assets.xcassets */; };
 		04F54E692C065AB500406B3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F54E682C065AB500406B3F /* Preview Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		046D00182C067E8B00FF16EA /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		04F54E5E2C065AB300406B3F /* TMS-IOS-LESSON-46-HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMS-IOS-LESSON-46-HW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F54E612C065AB300406B3F /* TMS_IOS_LESSON_46_HWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMS_IOS_LESSON_46_HWApp.swift; sourceTree = "<group>"; };
 		04F54E652C065AB500406B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				04F54E702C065BF400406B3F /* Views */,
 				04F54E6F2C065BDB00406B3F /* App */,
 				04F54E672C065AB500406B3F /* Preview Content */,
+				046D00182C067E8B00FF16EA /* constants.swift */,
 			);
 			path = "TMS-IOS-LESSON-46-HW";
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			files = (
 				04F54E7A2C06680C00406B3F /* ListItemView.swift in Sources */,
 				04F54E7D2C06699000406B3F /* db.swift in Sources */,
+				046D00192C067E8B00FF16EA /* constants.swift in Sources */,
 				04F54E782C06678C00406B3F /* ListItem.swift in Sources */,
 				04F54E742C0666ED00406B3F /* ListView.swift in Sources */,
 				04F54E622C065AB300406B3F /* TMS_IOS_LESSON_46_HWApp.swift in Sources */,

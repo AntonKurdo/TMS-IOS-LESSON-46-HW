@@ -21,13 +21,13 @@ struct ListItemView: View {
         label: {
             Text("More")
                 .padding(.horizontal, 12)
-                .frame(width: 70, height: 30)
+                .frame(width: screenSize.width * 0.2, height: 30)
                 .foregroundColor(.white)
                 .background(.yellow)
                 .cornerRadius(24)
         }
             Spacer()
-        }.frame(width: 180, height: 250).cornerRadius(10).background(
+        }.frame(width: screenSize.width * 0.44, height: 250).cornerRadius(10).background(
             RoundedRectangle(cornerRadius: 10)
                 .fill(Color.white)
                 .shadow(color: .gray, radius: 1, x: 1, y: 1)
