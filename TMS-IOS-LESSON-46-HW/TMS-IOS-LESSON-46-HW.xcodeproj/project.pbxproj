@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		04F54E622C065AB300406B3F /* TMS_IOS_LESSON_46_HWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F54E612C065AB300406B3F /* TMS_IOS_LESSON_46_HWApp.swift */; };
-		04F54E642C065AB300406B3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F54E632C065AB300406B3F /* ContentView.swift */; };
 		04F54E662C065AB500406B3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F54E652C065AB500406B3F /* Assets.xcassets */; };
 		04F54E692C065AB500406B3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F54E682C065AB500406B3F /* Preview Assets.xcassets */; };
+		04F54E722C06604D00406B3F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F54E712C06604D00406B3F /* SplashView.swift */; };
+		04F54E742C0666ED00406B3F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F54E732C0666ED00406B3F /* ListView.swift */; };
+		04F54E782C06678C00406B3F /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F54E772C06678C00406B3F /* ListItem.swift */; };
+		04F54E7A2C06680C00406B3F /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F54E792C06680C00406B3F /* ListItemView.swift */; };
+		04F54E7D2C06699000406B3F /* db.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F54E7C2C06699000406B3F /* db.swift */; };
+		04F54E7F2C06703F00406B3F /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F54E7E2C06703F00406B3F /* ImageView.swift */; };
+		04F54E812C0676B100406B3F /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F54E802C0676B100406B3F /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04F54E5E2C065AB300406B3F /* TMS-IOS-LESSON-46-HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMS-IOS-LESSON-46-HW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F54E612C065AB300406B3F /* TMS_IOS_LESSON_46_HWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMS_IOS_LESSON_46_HWApp.swift; sourceTree = "<group>"; };
-		04F54E632C065AB300406B3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04F54E652C065AB500406B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F54E682C065AB500406B3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04F54E712C06604D00406B3F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		04F54E732C0666ED00406B3F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		04F54E772C06678C00406B3F /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		04F54E792C06680C00406B3F /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		04F54E7C2C06699000406B3F /* db.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = db.swift; sourceTree = "<group>"; };
+		04F54E7E2C06703F00406B3F /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		04F54E802C0676B100406B3F /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +63,11 @@
 		04F54E602C065AB300406B3F /* TMS-IOS-LESSON-46-HW */ = {
 			isa = PBXGroup;
 			children = (
-				04F54E612C065AB300406B3F /* TMS_IOS_LESSON_46_HWApp.swift */,
-				04F54E632C065AB300406B3F /* ContentView.swift */,
-				04F54E652C065AB500406B3F /* Assets.xcassets */,
+				04F54E7B2C06698000406B3F /* db */,
+				04F54E762C06677C00406B3F /* Models */,
+				04F54E752C06671600406B3F /* Components */,
+				04F54E702C065BF400406B3F /* Views */,
+				04F54E6F2C065BDB00406B3F /* App */,
 				04F54E672C065AB500406B3F /* Preview Content */,
 			);
 			path = "TMS-IOS-LESSON-46-HW";
@@ -65,6 +79,50 @@
 				04F54E682C065AB500406B3F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04F54E6F2C065BDB00406B3F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04F54E652C065AB500406B3F /* Assets.xcassets */,
+				04F54E612C065AB300406B3F /* TMS_IOS_LESSON_46_HWApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		04F54E702C065BF400406B3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04F54E712C06604D00406B3F /* SplashView.swift */,
+				04F54E732C0666ED00406B3F /* ListView.swift */,
+				04F54E802C0676B100406B3F /* DetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04F54E752C06671600406B3F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				04F54E792C06680C00406B3F /* ListItemView.swift */,
+				04F54E7E2C06703F00406B3F /* ImageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		04F54E762C06677C00406B3F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04F54E772C06678C00406B3F /* ListItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04F54E7B2C06698000406B3F /* db */ = {
+			isa = PBXGroup;
+			children = (
+				04F54E7C2C06699000406B3F /* db.swift */,
+			);
+			path = db;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F54E642C065AB300406B3F /* ContentView.swift in Sources */,
+				04F54E7A2C06680C00406B3F /* ListItemView.swift in Sources */,
+				04F54E7D2C06699000406B3F /* db.swift in Sources */,
+				04F54E782C06678C00406B3F /* ListItem.swift in Sources */,
+				04F54E742C0666ED00406B3F /* ListView.swift in Sources */,
 				04F54E622C065AB300406B3F /* TMS_IOS_LESSON_46_HWApp.swift in Sources */,
+				04F54E812C0676B100406B3F /* DetailsView.swift in Sources */,
+				04F54E7F2C06703F00406B3F /* ImageView.swift in Sources */,
+				04F54E722C06604D00406B3F /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
